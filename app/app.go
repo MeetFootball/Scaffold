@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"gitlab.f-fans.cn/Scaffold/Community/util"
+	"github.com/MeetFootball/Scaffold/util"
 )
 
 var TimeLocation *time.Location // 时区

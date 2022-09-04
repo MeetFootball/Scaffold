@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.f-fans.cn/Scaffold/Community/crontab"
-	"gitlab.f-fans.cn/Scaffold/Community/model"
-	"gitlab.f-fans.cn/Scaffold/Community/util"
+	"github.com/MeetFootball/Scaffold/crontab"
+	"github.com/MeetFootball/Scaffold/model"
+	"github.com/MeetFootball/Scaffold/util"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

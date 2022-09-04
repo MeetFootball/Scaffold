@@ -1,6 +1,6 @@
 package app
 
-import "gitlab.f-fans.cn/Scaffold/Community/util"
+import "github.com/MeetFootball/Scaffold/util"
 
 // BaseConf 全局变量
 var BaseConf *BaseConfig

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/MeetFootball/Scaffold/model"
+	"github.com/MeetFootball/Scaffold/util"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 	"github.com/influxdata/influxdb-client-go/v2/api"
-	"gitlab.f-fans.cn/Scaffold/Community/model"
-	"gitlab.f-fans.cn/Scaffold/Community/util"
 )
 
 var (

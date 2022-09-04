@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
+	"github.com/MeetFootball/Scaffold/util"
 	"github.com/spf13/viper"
-	"gitlab.f-fans.cn/Scaffold/Community/util"
 )
 
 // InitViperConfig 初始化配置文件

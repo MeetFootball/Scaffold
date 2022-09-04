@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"gitlab.f-fans.cn/Scaffold/Community/app"
+	"github.com/MeetFootball/Scaffold/app"
 )
 
 /* 示例代码 */

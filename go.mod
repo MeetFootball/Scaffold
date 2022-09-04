@@ -1,4 +1,4 @@
-module gitlab.f-fans.cn/Scaffold/Community
+module github.com/MeetFootball/Scaffold
 
 go 1.18
 

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/MeetFootball/Scaffold/model"
+	"github.com/MeetFootball/Scaffold/util"
 	"github.com/gomodule/redigo/redis"
-	"gitlab.f-fans.cn/Scaffold/Community/model"
-	"gitlab.f-fans.cn/Scaffold/Community/util"
 )
 
 // ConfigRedisMap 全局变量

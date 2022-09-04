@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.f-fans.cn/Scaffold/Community/util"
+	"github.com/MeetFootball/Scaffold/util"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

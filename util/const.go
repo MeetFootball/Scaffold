@@ -11,6 +11,7 @@ const (
 	UpdateFailed       = "UpdateFailed"
 	ModifyOK           = "ModifySuccess"
 	ModifyFailed       = "ModifyFailed"
+	Done               = "Done"
 	ChangeStatusOK     = "ChangeStatusSuccess"
 	ChangeStatusFailed = "ChangeStatusFailed"
 

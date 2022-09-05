@@ -92,6 +92,7 @@ func GetRedisConfig(path, name string) (conf *RedisConfig, err error) {
 		if n == name {
 			conf.Db = v.Db
 			conf.Prefix = v.Prefix
+			conf.Expired = v.Expired
 		}
 	}
 	return

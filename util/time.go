@@ -9,6 +9,7 @@ const (
 	DateTimeFormat          = "2006-01-02 15:04:05"
 	DateFormat              = "2006-01-02"
 	DateMinuteFormat        = "2006-01-02 15:04"
+	YMSFormat               = "2006 年 01 月"
 	HourFormat              = "15:04"
 	DateTimeStringFormat    = "20060102150405"
 )

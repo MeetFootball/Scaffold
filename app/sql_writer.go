@@ -31,6 +31,9 @@ func (w Writer) Printf(f string, args ...interface{}) {
 		ErrorIndex = 1
 		Log.Error = fmt.Sprintf("%s", args[ErrorIndex])
 		t = "errors"
+		if GetEnv() == "Local" || GetEnv() == "Dev" {
+			fmt.Println(args...)
+		}
 	}
 	if location, ok = args[LocationIndex].(string); ok {
 		Log.Location = location

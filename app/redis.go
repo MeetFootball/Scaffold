@@ -25,7 +25,7 @@ type RedisConfig struct {
 	Password     string `mapstructure:"password"`
 	Prefix       string `mapstructure:"prefix"`
 	Db           int    `mapstructure:"db"`
-	Expired      int    `json:"expired"`
+	Expired      int    `mapstructure:"expired"`
 	MaxIdle      int    `mapstructure:"max_idle"`
 	MaxActive    int    `mapstructure:"max_active"`
 	ConnTimeout  int    `mapstructure:"conn_timeout"`
